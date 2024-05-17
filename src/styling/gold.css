@@ -1,0 +1,113 @@
+.plan-s{
+ 
+  background-color: rgb(251, 227, 197);
+  margin-top: -20px;
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+
+
+
+.gold-plan-list,
+.gold-plan-list ol,
+.gold-plan-list ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for top-level list items */
+.gold-plan-list > li {
+  margin-bottom: 20px; /* Adjust spacing between top-level list items */
+}
+
+/* Style for nested lists */
+.gold-plan-list ol,
+.gold-plan-list ul {
+  margin-left: 20px; /* Adjust the indentation for nested lists */
+}
+
+/* Style for list item text */
+.gold-plan-list li {
+  font-size: 22px; /* Increase font size */
+  line-height: 1.5; /* Adjust line height */
+   /* Text color */
+  background-color: #f2f2f2; 
+   /* Background color */
+  padding: 10px; /* Add padding for better spacing */
+  border-radius: 5px; /* Add rounded corners */
+padding-left: 50px;
+}
+
+/* Optionally, you can add additional styling based on your design requirements */
+.gold-plan h1{
+    text-align: center;
+    font-size: 56px;
+    font-family: 'Cinzel', serif;
+    color: red;
+}
+.gold-plan{
+  margin-top: 20px;
+
+}
+.gold-plan-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    
+}
+.gold--pack{
+  display: flex;
+justify-content: center;
+align-items: center;
+
+}
+h2{
+  color: rgb(244, 133, 7);
+}
+li{
+  color: rgb(245, 87, 13);
+}
+
+@media screen and (max-width: 1200px) {
+
+  .gold-plan-list{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+}
+}
+@media screen and (max-width: 590px) {
+  .gold-plan h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Cinzel', serif;
+    color: red;
+}
+.gold-plan-list li {
+  font-size: 18px; /* Increase font size */
+  line-height: 1.2; /* Adjust line height */
+   /* Text color */
+  background-color: #f2f2f2; 
+   /* Background color */
+  padding: 10px; /* Add padding for better spacing */
+  border-radius: 5px; /* Add rounded corners */
+padding-left: 40px;
+}
+
+
+}
+@media screen and (max-width: 419px) {
+  .gold-plan-list li {
+    font-size: 15px; /* Increase font size */
+    line-height: 1.0; /* Adjust line height */
+     /* Text color */
+    background-color: #f2f2f2; 
+     /* Background color */
+    padding: 10px; /* Add padding for better spacing */
+    border-radius: 5px; /* Add rounded corners */
+  padding-left: 40px;
+  }
+
+
+}
+
+}

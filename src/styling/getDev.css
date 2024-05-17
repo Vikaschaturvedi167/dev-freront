@@ -1,0 +1,120 @@
+/* getDev.css */
+
+/* Reset default margin and padding */
+.getdev-page {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Main container styles */
+  .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-bottom: 30px;
+    background: url('../Images/get-back2.jpg') no-repeat center center/cover;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Form container styles */
+  .getdevdigital-container {
+    background-color: rgba(53, 52, 52, 0.63);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  /* Heading styles */
+  .getdevdigital-container h1 {
+    text-align: center;
+    font-size: 35px;
+    color: red;
+    margin-bottom: 30px;
+  }
+  
+  /* Form styles */
+  .getdevdigital-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .getdevdigital-container form div {
+    margin-bottom: 20px;
+  }
+  
+  .getdevdigital-container form label {
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(179, 42, 12);
+    margin-bottom: 5px;
+  }
+  
+  .getdevdigital-container form input,
+  .getdevdigital-container form select {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    width: 100%;
+  }
+  
+  .getdevdigital-container form select {
+    appearance: none;
+  }
+  
+  .getdevdigital-container form button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .getdevdigital-container form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .getdevdigital-container {
+      max-width: 90%;
+      padding: 30px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .getdevdigital-container {
+      max-width: 95%;
+      padding: 20px;
+    }
+  
+    .getdevdigital-container h1 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+    }
+  
+    .getdevdigital-container form label {
+      font-size: 0.9rem;
+    }
+  
+    .getdevdigital-container form input,
+    .getdevdigital-container form select {
+      padding: 10px;
+      font-size: 0.9rem;
+    }
+  
+    .getdevdigital-container form button {
+      padding: 10px 20px;
+      font-size: 0.9rem;
+    }
+  }
+  
+}

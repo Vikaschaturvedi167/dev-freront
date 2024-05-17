@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap");
+
+.sd-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.sd-box img {
+  width: 45%;
+  margin-left: 20px;
+}
+
+.sd-box p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.sd-box p span {
+  color: red;
+}
+
+.container-pack {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.tv-img img {
+  width: 90%;
+  height: 70%;
+  background-color: rgb(7, 43, 52);
+  margin-left: 40px;
+}
+.tv-img {
+  display: flex;
+  flex-direction: row;
+  
+  margin-right: 40px;
+}
+.plans-for {
+  text-align: center;
+  color: red;
+  margin: 20px;
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.cable-tv-products{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr   );
+}
+.cable-tv-products div {
+  width: 150px;
+  height: 180px;
+  border: 2px solid black;
+  margin: 30px;
+  padding: 20px;
+  color: white;
+  font-weight: bolder;
+  background-color: rgb(79, 102, 121);
+  border-radius: 10px;
+  
+}
+
+.cable-tv-products div p {
+  color: rgb(255, 183, 0);
+}
+
+.intra {
+  text-align: center;
+  color: red;
+  margin: 20px;
+  margin-top: 70px;
+  font-size: 45px;
+  font-weight: bolder;
+}
+.Internet-plans {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.product-internet{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr   );
+}
+.product-internet div {
+  width: 150px;
+  height: 180px;
+  border: 2px solid black;
+  margin: 30px;
+  padding: 20px;
+  color: white;
+  font-weight: bolder;
+  background-color: rgb(79, 102, 121);
+  border-radius: 10px;
+}
+
+
+.product-internet p {
+  color: rgb(255, 183, 0);
+}
+
+.internet-img img{
+
+  width: 300%;
+  height: 200%;
+  /* background-color: rgb(7, 43, 52); */
+  text-align: right;
+
+}
+.internet-img{
+  width: 300%;
+  height: 200%;
+  display:  flex;
+  justify-content: right;
+  align-items: flex-end;
+  margin-left: 40px;
+}
+
+.Get-BUTTON{
+  padding: 5px 10px;
+  background-color: rgb(1, 9, 15);
+  color: azure;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.Get-BUTTON:hover {
+  background-color: azure; /* Change background color on hover */
+  color: rgb(1, 9, 15); /* Change text color on hover */
+  cursor: pointer;
+}
+
+.intra1{
+  text-align: center;
+  color: red;
+  margin: 20px;
+  
+  font-size: 45px;
+  font-weight: bolder;
+}
+.combo{
+  text-align: center;
+  color: brown;
+  font-size: 29px;
+}
+
+
+.special-combo{
+  display: flex;
+  flex-direction: row;
+}
+.combo1{
+  width: 300px;
+  height: 200px;
+  border: 2px solid black;
+  margin: 30px;
+  padding: 20px;
+  margin-top: 70px;
+  color: white;
+  font-weight: bolder;
+  background-color: rgb(79, 102, 121);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  
+  margin-left: 300px;
+}
+.combo1 p{
+  color: rgb(255, 174, 0);
+}
+
+
+@media screen and (max-width: 1012px) {
+
+
+  .sd-box p {
+    
+    font-size: 16px;
+    
+  }
+
+  .container-pack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .tv-img img {
+    width: 97%;
+    height: 70%;
+    background-color: rgb(7, 43, 52);
+    margin-left: 40px;
+  }
+  .cable-tv-products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr   );
+  }
+
+  .Internet-plans {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .internet-img img{
+
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(7, 43, 52); */
+    text-align: right;
+  
+  }
+  .internet-img{
+    width: 100%;
+    height: 100%;
+    display:  flex;
+    justify-content: right;
+    align-items: flex-end;
+    margin-left: 40px;
+  }
+  .special-combo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .special-combo div img{
+    width: 100%;
+  }
+  .special-combo div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .combo1{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+  }
+  .combo1{
+    width: 280px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 30px;
+    padding: 20px;
+    margin-top: 70px;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(79, 102, 121);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sd-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .sd-box img {
+    width: 80%;
+    margin-left: 20px;
+  }
+  
+  .sd-box p {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    margin: 10px;
+  }
+  .cable-tv-products{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr   );
+  }
+
+
+}
+
+
+@media screen and (max-width: 590px) {
+  .sd-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .sd-box img {
+    width: 80%;
+    margin-left: 20px;
+  }
+  
+  .sd-box p {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    margin: 10px;
+  }
+  
+
+
+}
+
+@media screen and (max-width: 490px) {
+  .product-internet{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr   );
+  }
+}
+@media screen and (max-width: 458px) {
+  .sd-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+  }
+  
+  .sd-box img {
+    width: 80%;
+    margin-left: 20px;
+  }
+  
+  .sd-box p {
+    font-family: "Raleway", sans-serif;
+    font-size: 10px;
+    margin: 10px;
+  }
+  .cable-tv-products{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr   );
+  }
+  .internet-img img{
+
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(7, 43, 52); */
+    text-align: right;
+  
+  }
+  .internet-img{
+    width: 100%;
+    height: 100%;
+    display:  flex;
+    justify-content: right;
+    align-items: flex-end;
+    margin-left: 40px;
+  }
+
+}

@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+.fadeIn[data-aos-duration='4000'] [data-aos], [data-aos][data-aos][data-aos-duration='4000']{
+  transition-duration: 4000ms;
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.main-container video {
+  outline: none; /* Hide focus outline */
+}
+
+.main-container video::-webkit-media-controls {
+  display: none; /* Hide default controls for WebKit browsers */
+}
+
+.main-container video::-webkit-media-controls-panel {
+  display: none; /* Hide default controls panel for WebKit browsers */
+}
+
+.main-container video {
+  pointer-events: none; /* Disable click events on video */
+}
+.text-overlay h1{
+  animation: slideIn 2s ease-out forwards;
+}
+.text-overlay p{
+  animation: slideIn 2s ease-out forwards;
+}
+
+.fadeIn {
+  animation: fadeIn 2s ease-in-out;
+}
+.main-container{
+  width: 100%;
+
+.background-img {
+    margin-top: -40px;
+    position: relative; /* Make the parent container relative */
+  }
+  
+  .background-img video {
+
+    
+    width: 100%;
+    
+  }
+  
+  .text-overlay {
+   
+    position: absolute; /* Position the overlay relative to the parent container */
+    top: 40%; /* Place the overlay at the vertical center of the parent container */
+    left: 10px; /* Place the overlay 10px from the right edge of the parent container */
+    transform: translateY(-50%); /* Adjust the vertical position to center the text */
+    font-size: 25px;
+    text-align: justify;
+    padding: 20px; /* Add padding to the overlay */
+    color: white; /* Text color */
+    max-width: 80%; /* Limit the width of the overlay */
+    box-sizing: border-box; /* Include padding and border in the overlay's total width */
+    
+  }
+  .text-overlay h1 span{
+    color: red;
+  }
+  .GET-DEV{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .GET-DEV button {
+    font-size: 25px;
+    padding: 20px;
+    margin: 10px;
+    background-color:  rgb(11, 40, 40);
+    color: aliceblue;
+    border-radius: 8px;
+    transition: transform 0.3s, background-color 0.3s; 
+    cursor: pointer;
+  }
+  
+  .GET-DEV button:hover {
+    transform: scale(1.1); /* Zoom in effect on hover */
+    background-color:rgb(23, 78, 78);
+  }
+  
+  .GET-DEV button:active {
+    transform: scale(0.9); /* Slight zoom out effect when button is clicked */
+  }
+  
+  
+
+  .navigate{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    text-align: center;
+    
+
+    margin-top: 20px;
+  }
+  .REG-BUTTON{
+    background-color: rgb(11, 40, 40);
+    color: white;
+    margin: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.main-service{
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.main-service h1{
+    color: rgb(239, 100, 8);
+}
+.our-service{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   margin-bottom: 40px;
+   margin-top: 20px;
+   width: 70%;
+}
+.our-service div{
+    
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+   
+
+}
+.our-service div h2{
+  text-align: center;
+}
+
+.our-service div img{
+width: 100px;
+height: 100px;
+}
+
+.partner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin: 20px;
+    font-family: 'Tilt Neon', sans-serif;
+}
+.partner h1{
+  color: brown;
+}
+.partner h2{
+    margin-top: 15px;
+    color: rgb(99, 98, 98);
+}
+.partner-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 20px;
+}
+.partner-img img{
+    margin: 40px;
+    width: 100px;
+}
+.maps{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.maps iframe {
+  
+  background-color: rgb(224, 223, 223);
+  width: 90%;
+     height: auto;
+     margin: 10px;
+  border: 10px solid rgb(231, 229, 229);
+
+}
+.images-sec{
+  width: 99%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.sec1{
+  width: 99%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.sec1 img{
+  width: 40%;
+  /* height: 600px; */
+  margin: 2px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .text-overlay {
+    position: absolute; /* Position the overlay relative to the parent container */
+    top: 40%; /* Place the overlay at the vertical center of the parent container */
+    left: 10px; /* Place the overlay 10px from the right edge of the parent container */
+    transform: translateY(-50%); /* Adjust the vertical position to center the text */
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: justify;
+    padding: 20px; /* Add padding to the overlay */
+    color: white; /* Text color */
+    max-width: 90%; /* Limit the width of the overlay */
+    box-sizing: border-box; /* Include padding and border in the overlay's total width */
+  }
+  .reg1{
+    font-size: 24px;
+  }
+  .reg2{
+    font-size: 14px;
+  }
+  .our-service{
+  
+   width: 80%;
+}
+  .our-service div h2{
+    font-size: 16px;
+  }
+  
+  .our-service div img{
+  width: 60px;
+  height: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text-overlay {
+    position: absolute; /* Position the overlay relative to the parent container */
+    top: 40%; /* Place the overlay at the vertical center of the parent container */
+    left: 10px; /* Place the overlay 10px from the right edge of the parent container */
+    transform: translateY(-50%); /* Adjust the vertical position to center the text */
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: justify;
+    padding: 20px; /* Add padding to the overlay */
+    color: white; /* Text color */
+    max-width: 90%; /* Limit the width of the overlay */
+    box-sizing: border-box; /* Include padding and border in the overlay's total width */
+  }
+  .reg1{
+    font-size: 22px;
+  }
+  .reg2{
+    font-size: 13px;
+  }
+
+  .our-service{
+    
+   width: 80%;
+}
+.our-service div{
+  margin: 20px;
+}
+  .our-service div h2{
+    font-size: 16px;
+  }
+  
+  .our-service div img{
+    
+  width: 70px;
+  height: 70px;
+  }
+  .partner h1{
+    font-size: 20px;
+  }
+  .partner h2{
+     font-size: 15px;
+  }
+
+  .partner-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 20px;
+}
+.partner-img img{
+  margin: 40px;
+  width: 60px;
+}
+}
+
+@media screen and (max-width: 640px) {
+  .text-overlay {
+    position: absolute; /* Position the overlay relative to the parent container */
+    top: 40%; /* Place the overlay at the vertical center of the parent container */
+    left: 10px; /* Place the overlay 10px from the right edge of the parent container */
+    transform: translateY(-50%); /* Adjust the vertical position to center the text */
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: justify;
+    padding: 20px; /* Add padding to the overlay */
+    color: white; /* Text color */
+    max-width: 90%; /* Limit the width of the overlay */
+    box-sizing: border-box; /* Include padding and border in the overlay's total width */
+  }
+  .reg1{
+    font-size: 19px;
+  }
+  .reg2{
+    font-size: 12px;
+  }
+  .main-service{
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.our-service{
+   
+  width: 80%;
+}
+  .our-service div h2{
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 508px) {
+  .text-overlay {
+    position: absolute; /* Position the overlay relative to the parent container */
+    top: 40%; /* Place the overlay at the vertical center of the parent container */
+    left: 10px; /* Place the overlay 10px from the right edge of the parent container */
+    transform: translateY(-50%); /* Adjust the vertical position to center the text */
+    font-size: 9px;
+    margin-top: 10px;
+    text-align: justify;
+    padding: 20px; /* Add padding to the overlay */
+    color: white; /* Text color */
+    max-width: 90%; /* Limit the width of the overlay */
+    box-sizing: border-box; /* Include padding and border in the overlay's total width */
+  }
+  .reg1{
+    font-size: 16px;
+  }
+  .reg2{
+    font-size: 10px;
+  }
+  .our-service{
+   
+   width: 90%;
+}
+
+  .our-service div h2{
+    font-size: 9px;
+  }
+  
+  .our-service div img{
+    
+  width: 50px;
+  height: 50px;
+  }
+  .partner-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 20px;
+}
+.partner-img img{
+  margin: 20px;
+  width: 40px;
+}
+
+}
+
+@media screen and (max-width: 445px) {
+  .our-service{
+margin-top: 10px;
+margin-bottom: 20px;
+  }
+  .our-service div img{
+    width: 40px;
+    height: 40px;
+    }
+    .our-service div h2{
+      font-size: 8px;
+    }
+    .GET-DEV button {
+      font-size: 18px;
+      padding: 15px;
+      margin: 10px;
+      background-color:  rgb(11, 40, 40);
+      color: aliceblue;
+      border-radius: 8px;
+      transition: transform 0.3s, background-color 0.3s; 
+      cursor: pointer;
+    }
+.reg1{
+    font-size: 13px;
+  }
+  .reg2{
+    font-size: 9px;
+  }
+
+
+}
+
+}
